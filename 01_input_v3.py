@@ -1,4 +1,4 @@
-"""Program for @home learning  - version 2
+"""Program for @home learning  - version 3
 Created by Joshua Horn
 10th March 2022
 """
@@ -14,8 +14,10 @@ num_2 = int(input("Enter another number: "))
 answer = num_1 + num_2
 
 # Multiply numbers together
+answer_2 = num_1 * num_2
 
 # Greet user and display result
 print("\nHello", name) # starts output on new line
 
-print(f"{num_1} + {num_2} = {answer}".format(num_1, num_2, answer))  # prints the answer
+print(f"{num_1} + {num_2} = {answer}".format(num_1, num_2, answer))  # prints the answer addition
+print(f"{num_1} + {num_2} = {answer_2}".format(num_1, num_2, answer_2))  # prints the answer for multiplication
